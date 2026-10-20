@@ -1,0 +1,12 @@
+// Desafio: nova classe de personagem
+public class Ladino extends Personagem {
+
+    public Ladino(String nome, int vida, int nivel) {
+        super(nome, vida, nivel);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(getNome() + " ataca pelas sombras com sua adaga!");
+    }
+}
